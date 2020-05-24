@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import "main.css";
+@import "navigation.css";
+@import "section.css";
+
+/* Medium Screens */
+@media (min-width: 600px) and (max-width:900px) {
+    .flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flex-box {
+        min-height: 250px;
+        min-width: 250px;
+        margin:10px;
+    }
+}
+
+/* Large Screens */
+@media (min-width:901px) {
+    .flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flex-box {
+        min-height: 350px;
+        min-width: 350px;
+        margin:10px;
+    }
+}

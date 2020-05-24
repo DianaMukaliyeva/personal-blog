@@ -1,0 +1,48 @@
+.flex {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 150px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(65, 62, 62);
+}
+
+.post {
+    flex-grow: 1;
+    margin-bottom: 5px;
+}
+
+.flex-img {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.flex-img figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.flex-img img {
+    width: 200px;
+    height: 150px;
+}
+
+.flex-box a {
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(245, 245, 245);
+    z-index: 1;
+}
+
+nav a {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
