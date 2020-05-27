@@ -10,6 +10,10 @@
     padding: 10px;
 }
 
+.post-header {
+    grid-area: hd;
+}
+
 .main-img {
     width: 250px;
     height: 200px;
